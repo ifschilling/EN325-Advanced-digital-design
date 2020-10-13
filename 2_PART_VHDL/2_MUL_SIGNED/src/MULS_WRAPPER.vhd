@@ -23,7 +23,7 @@ use IEEE.numeric_std.all;
 
 ENTITY MULS_WRAPPER IS
 	GENERIC (
-		CONSTANT N : NATURAL := 8
+		CONSTANT N : NATURAL := 64
 	);
 	PORT ( 
 		CLOCK    : in  STD_LOGIC;

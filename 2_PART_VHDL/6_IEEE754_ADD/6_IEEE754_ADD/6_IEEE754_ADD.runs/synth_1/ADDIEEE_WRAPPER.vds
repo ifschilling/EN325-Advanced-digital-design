@@ -1,0 +1,304 @@
+#-----------------------------------------------------------
+# Vivado v2018.2 (64-bit)
+# SW Build 2258646 on Thu Jun 14 20:02:38 MDT 2018
+# IP Build 2256618 on Thu Jun 14 22:10:49 MDT 2018
+# Start of session at: Tue Oct 13 10:55:32 2020
+# Process ID: 32481
+# Current directory: /net/e/ifischersch/EN325-Advanced-digital-design/2_PART_VHDL/6_IEEE754_ADD/6_IEEE754_ADD/6_IEEE754_ADD.runs/synth_1
+# Command line: vivado -log ADDIEEE_WRAPPER.vds -product Vivado -mode batch -messageDb vivado.pb -notrace -source ADDIEEE_WRAPPER.tcl
+# Log file: /net/e/ifischersch/EN325-Advanced-digital-design/2_PART_VHDL/6_IEEE754_ADD/6_IEEE754_ADD/6_IEEE754_ADD.runs/synth_1/ADDIEEE_WRAPPER.vds
+# Journal file: /net/e/ifischersch/EN325-Advanced-digital-design/2_PART_VHDL/6_IEEE754_ADD/6_IEEE754_ADD/6_IEEE754_ADD.runs/synth_1/vivado.jou
+#-----------------------------------------------------------
+source ADDIEEE_WRAPPER.tcl -notrace
+Command: synth_design -top ADDIEEE_WRAPPER -part xc7a100tcsg324-3
+Starting synth_design
+Attempting to get a license for feature 'Synthesis' and/or device 'xc7a100t'
+INFO: [Common 17-349] Got license for feature 'Synthesis' and/or device 'xc7a100t'
+INFO: Launching helper process for spawning children vivado processes
+INFO: Helper process launched with PID 32488 
+---------------------------------------------------------------------------------
+Starting Synthesize : Time (s): cpu = 00:00:01 ; elapsed = 00:00:02 . Memory (MB): peak = 1417.969 ; gain = 85.836 ; free physical = 2310 ; free virtual = 24213
+---------------------------------------------------------------------------------
+INFO: [Synth 8-638] synthesizing module 'ADDIEEE_WRAPPER' [/net/e/ifischersch/EN325-Advanced-digital-design/2_PART_VHDL/6_IEEE754_ADD/src/ADDIEEE_WRAPPER.vhd:33]
+INFO: [Synth 8-638] synthesizing module 'ADD_FLOAT32b' [/net/e/ifischersch/EN325-Advanced-digital-design/2_PART_VHDL/6_IEEE754_ADD/src/ADD_IEEE754.vhd:23]
+INFO: [Synth 8-3491] module 'selection' declared at '/net/e/ifischersch/EN325-Advanced-digital-design/2_PART_VHDL/6_IEEE754_ADD/src/ADD_IEEE754.vhd:197' bound to instance 'sel' of component 'selection' [/net/e/ifischersch/EN325-Advanced-digital-design/2_PART_VHDL/6_IEEE754_ADD/src/ADD_IEEE754.vhd:90]
+INFO: [Synth 8-638] synthesizing module 'selection' [/net/e/ifischersch/EN325-Advanced-digital-design/2_PART_VHDL/6_IEEE754_ADD/src/ADD_IEEE754.vhd:210]
+INFO: [Synth 8-256] done synthesizing module 'selection' (1#1) [/net/e/ifischersch/EN325-Advanced-digital-design/2_PART_VHDL/6_IEEE754_ADD/src/ADD_IEEE754.vhd:210]
+INFO: [Synth 8-3491] module 'aligneur_mantisse' declared at '/net/e/ifischersch/EN325-Advanced-digital-design/2_PART_VHDL/6_IEEE754_ADD/src/ADD_IEEE754.vhd:345' bound to instance 'aligneur' of component 'aligneur_mantisse' [/net/e/ifischersch/EN325-Advanced-digital-design/2_PART_VHDL/6_IEEE754_ADD/src/ADD_IEEE754.vhd:91]
+INFO: [Synth 8-638] synthesizing module 'aligneur_mantisse' [/net/e/ifischersch/EN325-Advanced-digital-design/2_PART_VHDL/6_IEEE754_ADD/src/ADD_IEEE754.vhd:358]
+INFO: [Synth 8-3491] module 'Shift' declared at '/net/e/ifischersch/EN325-Advanced-digital-design/2_PART_VHDL/6_IEEE754_ADD/src/ADD_IEEE754.vhd:474' bound to instance 'decaleur' of component 'Shift' [/net/e/ifischersch/EN325-Advanced-digital-design/2_PART_VHDL/6_IEEE754_ADD/src/ADD_IEEE754.vhd:374]
+INFO: [Synth 8-638] synthesizing module 'Shift' [/net/e/ifischersch/EN325-Advanced-digital-design/2_PART_VHDL/6_IEEE754_ADD/src/ADD_IEEE754.vhd:481]
+INFO: [Synth 8-256] done synthesizing module 'Shift' (2#1) [/net/e/ifischersch/EN325-Advanced-digital-design/2_PART_VHDL/6_IEEE754_ADD/src/ADD_IEEE754.vhd:481]
+INFO: [Synth 8-256] done synthesizing module 'aligneur_mantisse' (3#1) [/net/e/ifischersch/EN325-Advanced-digital-design/2_PART_VHDL/6_IEEE754_ADD/src/ADD_IEEE754.vhd:358]
+INFO: [Synth 8-3491] module 'Addition_mantisse' declared at '/net/e/ifischersch/EN325-Advanced-digital-design/2_PART_VHDL/6_IEEE754_ADD/src/ADD_IEEE754.vhd:283' bound to instance 'addition' of component 'Addition_mantisse' [/net/e/ifischersch/EN325-Advanced-digital-design/2_PART_VHDL/6_IEEE754_ADD/src/ADD_IEEE754.vhd:92]
+INFO: [Synth 8-638] synthesizing module 'Addition_mantisse' [/net/e/ifischersch/EN325-Advanced-digital-design/2_PART_VHDL/6_IEEE754_ADD/src/ADD_IEEE754.vhd:294]
+INFO: [Synth 8-3491] module 'ZLC_32b' declared at '/net/e/ifischersch/EN325-Advanced-digital-design/2_PART_VHDL/6_IEEE754_ADD/src/ADD_IEEE754.vhd:397' bound to instance 'nb_Z' of component 'ZLC_32b' [/net/e/ifischersch/EN325-Advanced-digital-design/2_PART_VHDL/6_IEEE754_ADD/src/ADD_IEEE754.vhd:305]
+INFO: [Synth 8-638] synthesizing module 'ZLC_32b' [/net/e/ifischersch/EN325-Advanced-digital-design/2_PART_VHDL/6_IEEE754_ADD/src/ADD_IEEE754.vhd:403]
+INFO: [Synth 8-256] done synthesizing module 'ZLC_32b' (4#1) [/net/e/ifischersch/EN325-Advanced-digital-design/2_PART_VHDL/6_IEEE754_ADD/src/ADD_IEEE754.vhd:403]
+INFO: [Synth 8-256] done synthesizing module 'Addition_mantisse' (5#1) [/net/e/ifischersch/EN325-Advanced-digital-design/2_PART_VHDL/6_IEEE754_ADD/src/ADD_IEEE754.vhd:294]
+INFO: [Synth 8-3491] module 'renormalisation' declared at '/net/e/ifischersch/EN325-Advanced-digital-design/2_PART_VHDL/6_IEEE754_ADD/src/ADD_IEEE754.vhd:115' bound to instance 'norme' of component 'renormalisation' [/net/e/ifischersch/EN325-Advanced-digital-design/2_PART_VHDL/6_IEEE754_ADD/src/ADD_IEEE754.vhd:93]
+INFO: [Synth 8-638] synthesizing module 'renormalisation' [/net/e/ifischersch/EN325-Advanced-digital-design/2_PART_VHDL/6_IEEE754_ADD/src/ADD_IEEE754.vhd:125]
+INFO: [Synth 8-256] done synthesizing module 'renormalisation' (6#1) [/net/e/ifischersch/EN325-Advanced-digital-design/2_PART_VHDL/6_IEEE754_ADD/src/ADD_IEEE754.vhd:125]
+INFO: [Synth 8-256] done synthesizing module 'ADD_FLOAT32b' (7#1) [/net/e/ifischersch/EN325-Advanced-digital-design/2_PART_VHDL/6_IEEE754_ADD/src/ADD_IEEE754.vhd:23]
+INFO: [Synth 8-256] done synthesizing module 'ADDIEEE_WRAPPER' (8#1) [/net/e/ifischersch/EN325-Advanced-digital-design/2_PART_VHDL/6_IEEE754_ADD/src/ADDIEEE_WRAPPER.vhd:33]
+WARNING: [Synth 8-3331] design renormalisation has unconnected port somme_mantisse[27]
+---------------------------------------------------------------------------------
+Finished Synthesize : Time (s): cpu = 00:00:02 ; elapsed = 00:00:03 . Memory (MB): peak = 1462.609 ; gain = 130.477 ; free physical = 2320 ; free virtual = 24224
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Finished Constraint Validation : Time (s): cpu = 00:00:02 ; elapsed = 00:00:03 . Memory (MB): peak = 1462.609 ; gain = 130.477 ; free physical = 2319 ; free virtual = 24223
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Start Loading Part and Timing Information
+---------------------------------------------------------------------------------
+Loading part: xc7a100tcsg324-3
+INFO: [Device 21-403] Loading part xc7a100tcsg324-3
+---------------------------------------------------------------------------------
+Finished Loading Part and Timing Information : Time (s): cpu = 00:00:02 ; elapsed = 00:00:03 . Memory (MB): peak = 1470.602 ; gain = 138.469 ; free physical = 2316 ; free virtual = 24220
+---------------------------------------------------------------------------------
+INFO: [Synth 8-5818] HDL ADVISOR - The operator resource <adder> is shared. To prevent sharing consider applying a KEEP on the output of the operator [/net/e/ifischersch/EN325-Advanced-digital-design/2_PART_VHDL/6_IEEE754_ADD/src/ADD_IEEE754.vhd:232]
+INFO: [Synth 8-5818] HDL ADVISOR - The operator resource <adder> is shared. To prevent sharing consider applying a KEEP on the output of the operator [/net/e/ifischersch/EN325-Advanced-digital-design/2_PART_VHDL/6_IEEE754_ADD/src/ADD_IEEE754.vhd:315]
+---------------------------------------------------------------------------------
+Finished RTL Optimization Phase 2 : Time (s): cpu = 00:00:02 ; elapsed = 00:00:03 . Memory (MB): peak = 1478.609 ; gain = 146.477 ; free physical = 2305 ; free virtual = 24209
+---------------------------------------------------------------------------------
+
+Report RTL Partitions: 
++-+--------------+------------+----------+
+| |RTL Partition |Replication |Instances |
++-+--------------+------------+----------+
++-+--------------+------------+----------+
+No constraint files found.
+---------------------------------------------------------------------------------
+Start RTL Component Statistics 
+---------------------------------------------------------------------------------
+Detailed RTL Component Info : 
++---Adders : 
+	   3 Input     28 Bit       Adders := 1     
+	   2 Input     23 Bit       Adders := 1     
+	   3 Input      9 Bit       Adders := 1     
+	   3 Input      8 Bit       Adders := 1     
++---Registers : 
+	               32 Bit    Registers := 3     
++---Muxes : 
+	   2 Input     28 Bit        Muxes := 1     
+	   2 Input     26 Bit        Muxes := 5     
+	   2 Input     24 Bit        Muxes := 3     
+	   2 Input     23 Bit        Muxes := 3     
+	   2 Input      9 Bit        Muxes := 1     
+	   2 Input      8 Bit        Muxes := 3     
+	   2 Input      5 Bit        Muxes := 1     
+	   2 Input      2 Bit        Muxes := 1     
+	   2 Input      1 Bit        Muxes := 3     
+---------------------------------------------------------------------------------
+Finished RTL Component Statistics 
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Start RTL Hierarchical Component Statistics 
+---------------------------------------------------------------------------------
+Hierarchical RTL Component report 
+Module ADDIEEE_WRAPPER 
+Detailed RTL Component Info : 
++---Registers : 
+	               32 Bit    Registers := 3     
+Module selection 
+Detailed RTL Component Info : 
++---Adders : 
+	   3 Input      9 Bit       Adders := 1     
++---Muxes : 
+	   2 Input     24 Bit        Muxes := 3     
+	   2 Input     23 Bit        Muxes := 3     
+	   2 Input      9 Bit        Muxes := 1     
+	   2 Input      8 Bit        Muxes := 2     
+	   2 Input      5 Bit        Muxes := 1     
+	   2 Input      1 Bit        Muxes := 3     
+Module Shift 
+Detailed RTL Component Info : 
++---Muxes : 
+	   2 Input     26 Bit        Muxes := 5     
+Module Addition_mantisse 
+Detailed RTL Component Info : 
++---Adders : 
+	   3 Input     28 Bit       Adders := 1     
++---Muxes : 
+	   2 Input     28 Bit        Muxes := 1     
+Module renormalisation 
+Detailed RTL Component Info : 
++---Adders : 
+	   2 Input     23 Bit       Adders := 1     
+	   3 Input      8 Bit       Adders := 1     
++---Muxes : 
+	   2 Input      8 Bit        Muxes := 1     
+	   2 Input      2 Bit        Muxes := 1     
+---------------------------------------------------------------------------------
+Finished RTL Hierarchical Component Statistics
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Start Part Resource Summary
+---------------------------------------------------------------------------------
+Part Resources:
+DSPs: 240 (col length:80)
+BRAMs: 270 (col length: RAMB18 80 RAMB36 40)
+---------------------------------------------------------------------------------
+Finished Part Resource Summary
+---------------------------------------------------------------------------------
+No constraint files found.
+---------------------------------------------------------------------------------
+Start Cross Boundary and Area Optimization
+---------------------------------------------------------------------------------
+Warning: Parallel synthesis criteria is not met 
+INFO: [Synth 8-5545] ROM "p_0_out" won't be mapped to RAM because address size (32) is larger than maximum supported(25)
+INFO: [Synth 8-5545] ROM "p_0_out" won't be mapped to RAM because address size (32) is larger than maximum supported(25)
+---------------------------------------------------------------------------------
+Finished Cross Boundary and Area Optimization : Time (s): cpu = 00:00:08 ; elapsed = 00:00:21 . Memory (MB): peak = 1643.426 ; gain = 311.293 ; free physical = 2136 ; free virtual = 24041
+---------------------------------------------------------------------------------
+
+Report RTL Partitions: 
++-+--------------+------------+----------+
+| |RTL Partition |Replication |Instances |
++-+--------------+------------+----------+
++-+--------------+------------+----------+
+No constraint files found.
+---------------------------------------------------------------------------------
+Start Timing Optimization
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Finished Timing Optimization : Time (s): cpu = 00:00:08 ; elapsed = 00:00:21 . Memory (MB): peak = 1643.430 ; gain = 311.297 ; free physical = 2138 ; free virtual = 24044
+---------------------------------------------------------------------------------
+
+Report RTL Partitions: 
++-+--------------+------------+----------+
+| |RTL Partition |Replication |Instances |
++-+--------------+------------+----------+
++-+--------------+------------+----------+
+---------------------------------------------------------------------------------
+Start Technology Mapping
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Finished Technology Mapping : Time (s): cpu = 00:00:08 ; elapsed = 00:00:21 . Memory (MB): peak = 1643.430 ; gain = 311.297 ; free physical = 2136 ; free virtual = 24041
+---------------------------------------------------------------------------------
+
+Report RTL Partitions: 
++-+--------------+------------+----------+
+| |RTL Partition |Replication |Instances |
++-+--------------+------------+----------+
++-+--------------+------------+----------+
+---------------------------------------------------------------------------------
+Start IO Insertion
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Start Flattening Before IO Insertion
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Finished Flattening Before IO Insertion
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Start Final Netlist Cleanup
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Finished Final Netlist Cleanup
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Finished IO Insertion : Time (s): cpu = 00:00:08 ; elapsed = 00:00:22 . Memory (MB): peak = 1643.430 ; gain = 311.297 ; free physical = 2136 ; free virtual = 24041
+---------------------------------------------------------------------------------
+
+Report Check Netlist: 
++------+------------------+-------+---------+-------+------------------+
+|      |Item              |Errors |Warnings |Status |Description       |
++------+------------------+-------+---------+-------+------------------+
+|1     |multi_driven_nets |      0|        0|Passed |Multi driven nets |
++------+------------------+-------+---------+-------+------------------+
+---------------------------------------------------------------------------------
+Start Renaming Generated Instances
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Finished Renaming Generated Instances : Time (s): cpu = 00:00:08 ; elapsed = 00:00:22 . Memory (MB): peak = 1643.430 ; gain = 311.297 ; free physical = 2135 ; free virtual = 24041
+---------------------------------------------------------------------------------
+
+Report RTL Partitions: 
++-+--------------+------------+----------+
+| |RTL Partition |Replication |Instances |
++-+--------------+------------+----------+
++-+--------------+------------+----------+
+---------------------------------------------------------------------------------
+Start Rebuilding User Hierarchy
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Finished Rebuilding User Hierarchy : Time (s): cpu = 00:00:08 ; elapsed = 00:00:22 . Memory (MB): peak = 1643.430 ; gain = 311.297 ; free physical = 2135 ; free virtual = 24040
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Start Renaming Generated Ports
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Finished Renaming Generated Ports : Time (s): cpu = 00:00:08 ; elapsed = 00:00:22 . Memory (MB): peak = 1643.430 ; gain = 311.297 ; free physical = 2135 ; free virtual = 24040
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Start Handling Custom Attributes
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Finished Handling Custom Attributes : Time (s): cpu = 00:00:08 ; elapsed = 00:00:22 . Memory (MB): peak = 1643.430 ; gain = 311.297 ; free physical = 2135 ; free virtual = 24040
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Start Renaming Generated Nets
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Finished Renaming Generated Nets : Time (s): cpu = 00:00:08 ; elapsed = 00:00:22 . Memory (MB): peak = 1643.430 ; gain = 311.297 ; free physical = 2135 ; free virtual = 24040
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Start Writing Synthesis Report
+---------------------------------------------------------------------------------
+
+Report BlackBoxes: 
++-+--------------+----------+
+| |BlackBox name |Instances |
++-+--------------+----------+
++-+--------------+----------+
+
+Report Cell Usage: 
++------+-------+------+
+|      |Cell   |Count |
++------+-------+------+
+|1     |BUFG   |     1|
+|2     |CARRY4 |    22|
+|3     |LUT2   |    24|
+|4     |LUT3   |    24|
+|5     |LUT4   |    74|
+|6     |LUT5   |   104|
+|7     |LUT6   |   127|
+|8     |FDRE   |    96|
+|9     |IBUF   |    65|
+|10    |OBUF   |    32|
++------+-------+------+
+
+Report Instance Areas: 
++------+-------------+------------------+------+
+|      |Instance     |Module            |Cells |
++------+-------------+------------------+------+
+|1     |top          |                  |   569|
+|2     |  ADDER      |ADD_FLOAT32b      |   375|
+|3     |    addition |Addition_mantisse |   177|
+|4     |    norme    |renormalisation   |     2|
+|5     |    sel      |selection         |   196|
++------+-------------+------------------+------+
+---------------------------------------------------------------------------------
+Finished Writing Synthesis Report : Time (s): cpu = 00:00:08 ; elapsed = 00:00:22 . Memory (MB): peak = 1643.430 ; gain = 311.297 ; free physical = 2135 ; free virtual = 24040
+---------------------------------------------------------------------------------
+Synthesis finished with 0 errors, 0 critical warnings and 1 warnings.
+Synthesis Optimization Runtime : Time (s): cpu = 00:00:09 ; elapsed = 00:00:22 . Memory (MB): peak = 1643.430 ; gain = 311.297 ; free physical = 2139 ; free virtual = 24044
+Synthesis Optimization Complete : Time (s): cpu = 00:00:09 ; elapsed = 00:00:22 . Memory (MB): peak = 1643.434 ; gain = 311.297 ; free physical = 2150 ; free virtual = 24055
+INFO: [Project 1-571] Translating synthesized netlist
+INFO: [Netlist 29-17] Analyzing 87 Unisim elements for replacement
+INFO: [Netlist 29-28] Unisim Transformation completed in 0 CPU seconds
+INFO: [Project 1-570] Preparing netlist for logic optimization
+INFO: [Opt 31-138] Pushed 0 inverter(s) to 0 load pin(s).
+INFO: [Project 1-111] Unisim Transformation Summary:
+No Unisim elements were transformed.
+
+INFO: [Common 17-83] Releasing license: Synthesis
+35 Infos, 1 Warnings, 0 Critical Warnings and 0 Errors encountered.
+synth_design completed successfully
+synth_design: Time (s): cpu = 00:00:11 ; elapsed = 00:00:23 . Memory (MB): peak = 1756.598 ; gain = 437.082 ; free physical = 2116 ; free virtual = 24022
+WARNING: [Constraints 18-5210] No constraint will be written out.
+INFO: [Common 17-1381] The checkpoint '/net/e/ifischersch/EN325-Advanced-digital-design/2_PART_VHDL/6_IEEE754_ADD/6_IEEE754_ADD/6_IEEE754_ADD.runs/synth_1/ADDIEEE_WRAPPER.dcp' has been generated.
+INFO: [runtcl-4] Executing : report_utilization -file ADDIEEE_WRAPPER_utilization_synth.rpt -pb ADDIEEE_WRAPPER_utilization_synth.pb
+report_utilization: Time (s): cpu = 00:00:00.03 ; elapsed = 00:00:00.06 . Memory (MB): peak = 1780.617 ; gain = 0.000 ; free physical = 2114 ; free virtual = 24019
+INFO: [Common 17-206] Exiting Vivado at Tue Oct 13 10:56:03 2020...

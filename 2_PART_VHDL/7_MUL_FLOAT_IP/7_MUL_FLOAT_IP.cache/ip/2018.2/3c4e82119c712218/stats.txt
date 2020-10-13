@@ -1,0 +1,4 @@
+NumberHits:0
+Timestamp: Tue Oct 13 09:17:12 UTC 2020
+VLNV: xilinx.com:ip:floating_point:7.1
+SynthRuntime: 54

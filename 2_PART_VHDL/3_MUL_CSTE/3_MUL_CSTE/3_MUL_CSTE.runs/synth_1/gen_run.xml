@@ -1,0 +1,46 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<GenRun Id="synth_1" LaunchPart="xc7a100tcsg324-3" LaunchTime="1602573757">
+  <File Type="VDS-TIMING-PB" Name="MULC_WRAPPER_timing_summary_synth.pb"/>
+  <File Type="VDS-TIMINGSUMMARY" Name="MULC_WRAPPER_timing_summary_synth.rpt"/>
+  <File Type="RDS-DCP" Name="MULC_WRAPPER.dcp"/>
+  <File Type="RDS-UTIL-PB" Name="MULC_WRAPPER_utilization_synth.pb"/>
+  <File Type="RDS-UTIL" Name="MULC_WRAPPER_utilization_synth.rpt"/>
+  <File Type="RDS-PROPCONSTRS" Name="MULC_WRAPPER_drc_synth.rpt"/>
+  <File Type="RDS-RDS" Name="MULC_WRAPPER.vds"/>
+  <File Type="REPORTS-TCL" Name="MULC_WRAPPER_reports.tcl"/>
+  <File Type="PA-TCL" Name="MULC_WRAPPER.tcl"/>
+  <FileSet Name="sources" Type="DesignSrcs" RelSrcDir="$PSRCDIR/sources_1">
+    <Filter Type="Srcs"/>
+    <File Path="$PPRDIR/../src/MUL_CONST.vhd">
+      <FileInfo>
+        <Attr Name="UsedIn" Val="synthesis"/>
+        <Attr Name="UsedIn" Val="simulation"/>
+      </FileInfo>
+    </File>
+    <File Path="$PPRDIR/../src/MULC_WRAPPER.vhd">
+      <FileInfo>
+        <Attr Name="UsedIn" Val="synthesis"/>
+        <Attr Name="UsedIn" Val="simulation"/>
+      </FileInfo>
+    </File>
+    <Config>
+      <Option Name="DesignMode" Val="RTL"/>
+      <Option Name="TopModule" Val="MULC_WRAPPER"/>
+      <Option Name="TopAutoSet" Val="TRUE"/>
+    </Config>
+  </FileSet>
+  <FileSet Name="constrs_in" Type="Constrs" RelSrcDir="$PSRCDIR/constrs_1">
+    <Filter Type="Constrs"/>
+    <Config>
+      <Option Name="ConstrsType" Val="XDC"/>
+    </Config>
+  </FileSet>
+  <Strategy Version="1" Minor="2">
+    <StratHandle Name="Vivado Synthesis Defaults" Flow="Vivado Synthesis 2018">
+      <Desc>Vivado Synthesis Defaults</Desc>
+    </StratHandle>
+    <Step Id="synth_design">
+      <Option Id="MaxDsp">0</Option>
+    </Step>
+  </Strategy>
+</GenRun>

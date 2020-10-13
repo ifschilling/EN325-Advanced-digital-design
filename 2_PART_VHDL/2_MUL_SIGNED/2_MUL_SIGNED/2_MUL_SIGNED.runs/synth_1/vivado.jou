@@ -1,0 +1,12 @@
+#-----------------------------------------------------------
+# Vivado v2018.2 (64-bit)
+# SW Build 2258646 on Thu Jun 14 20:02:38 MDT 2018
+# IP Build 2256618 on Thu Jun 14 22:10:49 MDT 2018
+# Start of session at: Tue Oct 13 09:06:22 2020
+# Process ID: 10741
+# Current directory: /net/e/ifischersch/EN325-Advanced-digital-design/2_PART_VHDL/2_MUL_SIGNED/2_MUL_SIGNED/2_MUL_SIGNED.runs/synth_1
+# Command line: vivado -log MULS_WRAPPER.vds -product Vivado -mode batch -messageDb vivado.pb -notrace -source MULS_WRAPPER.tcl
+# Log file: /net/e/ifischersch/EN325-Advanced-digital-design/2_PART_VHDL/2_MUL_SIGNED/2_MUL_SIGNED/2_MUL_SIGNED.runs/synth_1/MULS_WRAPPER.vds
+# Journal file: /net/e/ifischersch/EN325-Advanced-digital-design/2_PART_VHDL/2_MUL_SIGNED/2_MUL_SIGNED/2_MUL_SIGNED.runs/synth_1/vivado.jou
+#-----------------------------------------------------------
+source MULS_WRAPPER.tcl -notrace

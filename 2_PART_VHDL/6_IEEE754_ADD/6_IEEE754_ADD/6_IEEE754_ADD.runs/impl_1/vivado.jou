@@ -1,0 +1,12 @@
+#-----------------------------------------------------------
+# Vivado v2018.2 (64-bit)
+# SW Build 2258646 on Thu Jun 14 20:02:38 MDT 2018
+# IP Build 2256618 on Thu Jun 14 22:10:49 MDT 2018
+# Start of session at: Tue Oct 13 10:56:12 2020
+# Process ID: 32705
+# Current directory: /net/e/ifischersch/EN325-Advanced-digital-design/2_PART_VHDL/6_IEEE754_ADD/6_IEEE754_ADD/6_IEEE754_ADD.runs/impl_1
+# Command line: vivado -log ADDIEEE_WRAPPER.vdi -applog -product Vivado -messageDb vivado.pb -mode batch -source ADDIEEE_WRAPPER.tcl -notrace
+# Log file: /net/e/ifischersch/EN325-Advanced-digital-design/2_PART_VHDL/6_IEEE754_ADD/6_IEEE754_ADD/6_IEEE754_ADD.runs/impl_1/ADDIEEE_WRAPPER.vdi
+# Journal file: /net/e/ifischersch/EN325-Advanced-digital-design/2_PART_VHDL/6_IEEE754_ADD/6_IEEE754_ADD/6_IEEE754_ADD.runs/impl_1/vivado.jou
+#-----------------------------------------------------------
+source ADDIEEE_WRAPPER.tcl -notrace

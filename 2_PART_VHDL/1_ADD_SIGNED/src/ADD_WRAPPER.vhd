@@ -23,7 +23,7 @@ use IEEE.numeric_std.all;
 
 ENTITY ADD_WRAPPER IS
 	GENERIC (
-		CONSTANT N : NATURAL := 64
+		CONSTANT N : NATURAL := 24
 	);
 	PORT ( 
 		CLOCK    : in  STD_LOGIC;

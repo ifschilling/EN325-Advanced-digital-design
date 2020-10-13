@@ -23,7 +23,7 @@ use IEEE.numeric_std.all;
 
 ENTITY DIVS_WRAPPER IS
 	GENERIC (
-		CONSTANT N : NATURAL := 8
+		CONSTANT N : NATURAL := 32
 	);
 	PORT ( 
 		CLOCK    : in  STD_LOGIC;
