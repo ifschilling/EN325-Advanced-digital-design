@@ -1,5 +1,5 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<GenRun Id="synth_1" LaunchPart="xc7a100tcsg324-3" LaunchTime="1602573757">
+<GenRun Id="synth_1" LaunchPart="xc7a100tcsg324-3" LaunchTime="1603175041">
   <File Type="VDS-TIMING-PB" Name="MULC_WRAPPER_timing_summary_synth.pb"/>
   <File Type="VDS-TIMINGSUMMARY" Name="MULC_WRAPPER_timing_summary_synth.rpt"/>
   <File Type="RDS-DCP" Name="MULC_WRAPPER.dcp"/>
@@ -36,9 +36,7 @@
     </Config>
   </FileSet>
   <Strategy Version="1" Minor="2">
-    <StratHandle Name="Vivado Synthesis Defaults" Flow="Vivado Synthesis 2018">
-      <Desc>Vivado Synthesis Defaults</Desc>
-    </StratHandle>
+    <StratHandle Name="Vivado Synthesis Defaults" Flow="Vivado Synthesis 2018"/>
     <Step Id="synth_design">
       <Option Id="MaxDsp">0</Option>
     </Step>

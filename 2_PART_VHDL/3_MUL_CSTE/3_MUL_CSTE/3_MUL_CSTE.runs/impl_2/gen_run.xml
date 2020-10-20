@@ -1,0 +1,112 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<GenRun Id="impl_2" LaunchPart="xc7a100tcsg324-3" LaunchTime="1603178359">
+  <File Type="WBT-USG" Name="usage_statistics_webtalk.html"/>
+  <File Type="BG-DRC" Name="MULC_WRAPPER.drc"/>
+  <File Type="BG-BGN" Name="MULC_WRAPPER.bgn"/>
+  <File Type="BITSTR-SYSDEF" Name="MULC_WRAPPER.sysdef"/>
+  <File Type="BITSTR-LTX" Name="debug_nets.ltx"/>
+  <File Type="BITSTR-LTX" Name="MULC_WRAPPER.ltx"/>
+  <File Type="BITSTR-MMI" Name="MULC_WRAPPER.mmi"/>
+  <File Type="BITSTR-BMM" Name="MULC_WRAPPER_bd.bmm"/>
+  <File Type="BITSTR-NKY" Name="MULC_WRAPPER.nky"/>
+  <File Type="BITSTR-RBT" Name="MULC_WRAPPER.rbt"/>
+  <File Type="BITSTR-MSK" Name="MULC_WRAPPER.msk"/>
+  <File Type="BG-BIN" Name="MULC_WRAPPER.bin"/>
+  <File Type="BG-BIT" Name="MULC_WRAPPER.bit"/>
+  <File Type="POSTROUTE-PHYSOPT-BUS-SKEW-RPX" Name="MULC_WRAPPER_bus_skew_postroute_physopted.rpx"/>
+  <File Type="POSTROUTE-PHYSOPT-BUS-SKEW-PB" Name="MULC_WRAPPER_bus_skew_postroute_physopted.pb"/>
+  <File Type="POSTROUTE-PHYSOPT-BUS-SKEW" Name="MULC_WRAPPER_bus_skew_postroute_physopted.rpt"/>
+  <File Type="RDI-RDI" Name="MULC_WRAPPER.vdi"/>
+  <File Type="POSTROUTE-PHYSOPT-TIMING-RPX" Name="MULC_WRAPPER_timing_summary_postroute_physopted.rpx"/>
+  <File Type="POSTROUTE-PHYSOPT-TIMING-PB" Name="MULC_WRAPPER_timing_summary_postroute_physopted.pb"/>
+  <File Type="POSTROUTE-PHYSOPT-TIMING" Name="MULC_WRAPPER_timing_summary_postroute_physopted.rpt"/>
+  <File Type="POSTROUTE-PHYSOPT-BLACKBOX-DCP" Name="MULC_WRAPPER_postroute_physopt_bb.dcp"/>
+  <File Type="POSTROUTE-PHYSOPT-DCP" Name="MULC_WRAPPER_postroute_physopt.dcp"/>
+  <File Type="ROUTE-BUS-SKEW" Name="MULC_WRAPPER_bus_skew_routed.rpt"/>
+  <File Type="ROUTE-CLK" Name="MULC_WRAPPER_clock_utilization_routed.rpt"/>
+  <File Type="ROUTE-SIMILARITY" Name="MULC_WRAPPER_incremental_reuse_routed.rpt"/>
+  <File Type="ROUTE-TIMING-RPX" Name="MULC_WRAPPER_timing_summary_routed.rpx"/>
+  <File Type="ROUTE-TIMING-PB" Name="MULC_WRAPPER_timing_summary_routed.pb"/>
+  <File Type="ROUTE-TIMINGSUMMARY" Name="MULC_WRAPPER_timing_summary_routed.rpt"/>
+  <File Type="ROUTE-STATUS-PB" Name="MULC_WRAPPER_route_status.pb"/>
+  <File Type="ROUTE-STATUS" Name="MULC_WRAPPER_route_status.rpt"/>
+  <File Type="ROUTE-PWR-RPX" Name="MULC_WRAPPER_power_routed.rpx"/>
+  <File Type="ROUTE-PWR-SUM" Name="MULC_WRAPPER_power_summary_routed.pb"/>
+  <File Type="ROUTE-PWR" Name="MULC_WRAPPER_power_routed.rpt"/>
+  <File Type="ROUTE-METHODOLOGY-DRC-PB" Name="MULC_WRAPPER_methodology_drc_routed.pb"/>
+  <File Type="ROUTE-METHODOLOGY-DRC-RPX" Name="MULC_WRAPPER_methodology_drc_routed.rpx"/>
+  <File Type="ROUTE-METHODOLOGY-DRC" Name="MULC_WRAPPER_methodology_drc_routed.rpt"/>
+  <File Type="ROUTE-DRC-RPX" Name="MULC_WRAPPER_drc_routed.rpx"/>
+  <File Type="ROUTE-DRC-PB" Name="MULC_WRAPPER_drc_routed.pb"/>
+  <File Type="ROUTE-DRC" Name="MULC_WRAPPER_drc_routed.rpt"/>
+  <File Type="ROUTE-BLACKBOX-DCP" Name="MULC_WRAPPER_routed_bb.dcp"/>
+  <File Type="ROUTE-DCP" Name="MULC_WRAPPER_routed.dcp"/>
+  <File Type="ROUTE-ERROR-DCP" Name="MULC_WRAPPER_routed_error.dcp"/>
+  <File Type="PHYSOPT-TIMING" Name="MULC_WRAPPER_timing_summary_physopted.rpt"/>
+  <File Type="PHYSOPT-DRC" Name="MULC_WRAPPER_drc_physopted.rpt"/>
+  <File Type="PHYSOPT-DCP" Name="MULC_WRAPPER_physopt.dcp"/>
+  <File Type="POSTPLACE-PWROPT-TIMING" Name="MULC_WRAPPER_timing_summary_postplace_pwropted.rpt"/>
+  <File Type="POSTPLACE-PWROPT-DCP" Name="MULC_WRAPPER_postplace_pwropt.dcp"/>
+  <File Type="PLACE-TIMING" Name="MULC_WRAPPER_timing_summary_placed.rpt"/>
+  <File Type="PLACE-PRE-SIMILARITY" Name="MULC_WRAPPER_incremental_reuse_pre_placed.rpt"/>
+  <File Type="PLACE-SIMILARITY" Name="MULC_WRAPPER_incremental_reuse_placed.rpt"/>
+  <File Type="PLACE-CTRL" Name="MULC_WRAPPER_control_sets_placed.rpt"/>
+  <File Type="PLACE-UTIL-PB" Name="MULC_WRAPPER_utilization_placed.pb"/>
+  <File Type="PLACE-UTIL" Name="MULC_WRAPPER_utilization_placed.rpt"/>
+  <File Type="PLACE-CLK" Name="MULC_WRAPPER_clock_utilization_placed.rpt"/>
+  <File Type="PLACE-IO" Name="MULC_WRAPPER_io_placed.rpt"/>
+  <File Type="PLACE-DCP" Name="MULC_WRAPPER_placed.dcp"/>
+  <File Type="PWROPT-TIMING" Name="MULC_WRAPPER_timing_summary_pwropted.rpt"/>
+  <File Type="PWROPT-DRC" Name="MULC_WRAPPER_drc_pwropted.rpt"/>
+  <File Type="PWROPT-DCP" Name="MULC_WRAPPER_pwropt.dcp"/>
+  <File Type="OPT-TIMING" Name="MULC_WRAPPER_timing_summary_opted.rpt"/>
+  <File Type="OPT-HWDEF" Name="MULC_WRAPPER.hwdef"/>
+  <File Type="OPT-METHODOLOGY-DRC" Name="MULC_WRAPPER_methodology_drc_opted.rpt"/>
+  <File Type="OPT-DRC" Name="MULC_WRAPPER_drc_opted.rpt"/>
+  <File Type="OPT-DCP" Name="MULC_WRAPPER_opt.dcp"/>
+  <File Type="INIT-TIMING" Name="MULC_WRAPPER_timing_summary_init.rpt"/>
+  <File Type="ROUTE-BUS-SKEW-RPX" Name="MULC_WRAPPER_bus_skew_routed.rpx"/>
+  <File Type="REPORTS-TCL" Name="MULC_WRAPPER_reports.tcl"/>
+  <File Type="ROUTE-BUS-SKEW-PB" Name="MULC_WRAPPER_bus_skew_routed.pb"/>
+  <File Type="PA-TCL" Name="MULC_WRAPPER.tcl"/>
+  <FileSet Name="sources" Type="DesignSrcs" RelSrcDir="$PSRCDIR/sources_1">
+    <Filter Type="Srcs"/>
+    <File Path="$PPRDIR/../src/MUL_CONST.vhd">
+      <FileInfo>
+        <Attr Name="UsedIn" Val="synthesis"/>
+        <Attr Name="UsedIn" Val="simulation"/>
+      </FileInfo>
+    </File>
+    <File Path="$PPRDIR/../src/MULC_WRAPPER.vhd">
+      <FileInfo>
+        <Attr Name="UsedIn" Val="synthesis"/>
+        <Attr Name="UsedIn" Val="simulation"/>
+      </FileInfo>
+    </File>
+    <Config>
+      <Option Name="DesignMode" Val="RTL"/>
+      <Option Name="TopModule" Val="MULC_WRAPPER"/>
+      <Option Name="TopAutoSet" Val="TRUE"/>
+    </Config>
+  </FileSet>
+  <FileSet Name="constrs_in" Type="Constrs" RelSrcDir="$PSRCDIR/constrs_1">
+    <Filter Type="Constrs"/>
+    <Config>
+      <Option Name="ConstrsType" Val="XDC"/>
+    </Config>
+  </FileSet>
+  <Strategy Version="1" Minor="2">
+    <StratHandle Name="Vivado Implementation Defaults" Flow="Vivado Implementation 2018">
+      <Desc>Default settings for Implementation.</Desc>
+    </StratHandle>
+    <Step Id="init_design"/>
+    <Step Id="opt_design"/>
+    <Step Id="power_opt_design"/>
+    <Step Id="place_design"/>
+    <Step Id="post_place_power_opt_design"/>
+    <Step Id="phys_opt_design"/>
+    <Step Id="route_design"/>
+    <Step Id="post_route_phys_opt_design"/>
+    <Step Id="write_bitstream"/>
+  </Strategy>
+</GenRun>

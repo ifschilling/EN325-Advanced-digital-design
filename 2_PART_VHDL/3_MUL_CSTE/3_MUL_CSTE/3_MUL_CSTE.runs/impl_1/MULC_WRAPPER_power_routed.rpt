@@ -1,7 +1,7 @@
 Copyright 1986-2018 Xilinx, Inc. All Rights Reserved.
 ----------------------------------------------------------------------------------------------------------------------------------------------------------
 | Tool Version     : Vivado v.2018.2 (lin64) Build 2258646 Thu Jun 14 20:02:38 MDT 2018
-| Date             : Tue Oct 13 09:24:29 2020
+| Date             : Tue Oct 20 08:25:58 2020
 | Host             : condor running 64-bit CentOS Linux release 7.3.1611 (Core)
 | Command          : report_power -file MULC_WRAPPER_power_routed.rpt -pb MULC_WRAPPER_power_summary_routed.pb -rpx MULC_WRAPPER_power_routed.rpx
 | Design           : MULC_WRAPPER
@@ -30,14 +30,14 @@ Table of Contents
 ----------
 
 +--------------------------+--------------+
-| Total On-Chip Power (W)  | 4.467        |
+| Total On-Chip Power (W)  | 1.359        |
 | Design Power Budget (W)  | Unspecified* |
 | Power Budget Margin (W)  | NA           |
-| Dynamic (W)              | 4.354        |
-| Device Static (W)        | 0.113        |
+| Dynamic (W)              | 1.264        |
+| Device Static (W)        | 0.096        |
 | Effective TJA (C/W)      | 4.6          |
-| Max Ambient (C)          | 79.6         |
-| Junction Temperature (C) | 45.4         |
+| Max Ambient (C)          | 93.8         |
+| Junction Temperature (C) | 31.2         |
 | Confidence Level         | Low          |
 | Setting File             | ---          |
 | Simulation Activity File | ---          |
@@ -49,20 +49,18 @@ Table of Contents
 1.1 On-Chip Components
 ----------------------
 
-+----------------+-----------+----------+-----------+-----------------+
-| On-Chip        | Power (W) | Used     | Available | Utilization (%) |
-+----------------+-----------+----------+-----------+-----------------+
-| Slice Logic    |     0.035 |       28 |       --- |             --- |
-|   LUT as Logic |     0.015 |        6 |     63400 |           <0.01 |
-|   CARRY4       |     0.007 |        2 |     15850 |            0.01 |
-|   Register     |     0.007 |       16 |    126800 |            0.01 |
-|   BUFG         |     0.006 |        1 |        32 |            3.13 |
-|   Others       |     0.000 |        3 |       --- |             --- |
-| Signals        |     0.103 |       27 |       --- |             --- |
-| I/O            |     4.216 |       17 |       210 |            8.10 |
-| Static Power   |     0.113 |          |           |                 |
-| Total          |     4.467 |          |           |                 |
-+----------------+-----------+----------+-----------+-----------------+
++--------------+-----------+----------+-----------+-----------------+
+| On-Chip      | Power (W) | Used     | Available | Utilization (%) |
++--------------+-----------+----------+-----------+-----------------+
+| Slice Logic  |     0.009 |       13 |       --- |             --- |
+|   BUFG       |     0.006 |        1 |        32 |            3.13 |
+|   Register   |     0.003 |       10 |    126800 |           <0.01 |
+|   Others     |     0.000 |        2 |       --- |             --- |
+| Signals      |     0.043 |       17 |       --- |             --- |
+| I/O          |     1.211 |       14 |       210 |            6.67 |
+| Static Power |     0.096 |          |           |                 |
+| Total        |     1.359 |          |           |                 |
++--------------+-----------+----------+-----------+-----------------+
 
 
 1.2 Power Supply Summary
@@ -71,16 +69,16 @@ Table of Contents
 +-----------+-------------+-----------+-------------+------------+
 | Source    | Voltage (V) | Total (A) | Dynamic (A) | Static (A) |
 +-----------+-------------+-----------+-------------+------------+
-| Vccint    |       1.000 |     0.208 |       0.175 |      0.033 |
-| Vccaux    |       1.800 |     0.362 |       0.342 |      0.020 |
+| Vccint    |       1.000 |     0.095 |       0.076 |      0.019 |
+| Vccaux    |       1.800 |     0.116 |       0.097 |      0.018 |
 | Vcco33    |       3.300 |     0.000 |       0.000 |      0.000 |
 | Vcco25    |       2.500 |     0.000 |       0.000 |      0.000 |
-| Vcco18    |       1.800 |     1.984 |       1.980 |      0.004 |
+| Vcco18    |       1.800 |     0.567 |       0.562 |      0.004 |
 | Vcco15    |       1.500 |     0.000 |       0.000 |      0.000 |
 | Vcco135   |       1.350 |     0.000 |       0.000 |      0.000 |
 | Vcco12    |       1.200 |     0.000 |       0.000 |      0.000 |
 | Vccaux_io |       1.800 |     0.000 |       0.000 |      0.000 |
-| Vccbram   |       1.000 |     0.001 |       0.000 |      0.001 |
+| Vccbram   |       1.000 |     0.000 |       0.000 |      0.000 |
 | MGTAVcc   |       1.000 |     0.000 |       0.000 |      0.000 |
 | MGTAVtt   |       1.200 |     0.000 |       0.000 |      0.000 |
 | Vccadc    |       1.800 |     0.020 |       0.000 |      0.020 |
@@ -138,8 +136,7 @@ Table of Contents
 +--------------+-----------+
 | Name         | Power (W) |
 +--------------+-----------+
-| MULC_WRAPPER |     4.354 |
-|   MULTIPLIER |     0.022 |
+| MULC_WRAPPER |     1.264 |
 +--------------+-----------+
 
 

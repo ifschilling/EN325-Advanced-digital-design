@@ -1,7 +1,7 @@
 Copyright 1986-2018 Xilinx, Inc. All Rights Reserved.
 --------------------------------------------------------------------------------------------------------------------------------------------------------------------------
 | Tool Version : Vivado v.2018.2 (lin64) Build 2258646 Thu Jun 14 20:02:38 MDT 2018
-| Date         : Tue Oct 13 09:24:28 2020
+| Date         : Tue Oct 20 08:25:58 2020
 | Host         : condor running 64-bit CentOS Linux release 7.3.1611 (Core)
 | Command      : report_methodology -file MULC_WRAPPER_methodology_drc_routed.rpt -pb MULC_WRAPPER_methodology_drc_routed.pb -rpx MULC_WRAPPER_methodology_drc_routed.rpx
 | Design       : MULC_WRAPPER
@@ -23,26 +23,15 @@ Table of Contents
           Floorplan: design_1
       Design limits: <entire design considered>
              Max violations: <unlimited>
-             Violations found: 18
+             Violations found: 10
 +-----------+----------+-----------------------------+------------+
 | Rule      | Severity | Description                 | Violations |
 +-----------+----------+-----------------------------+------------+
-| SYNTH-9   | Warning  | Small multiplier            | 2          |
-| TIMING-17 | Warning  | Non-clocked sequential cell | 16         |
+| TIMING-17 | Warning  | Non-clocked sequential cell | 10         |
 +-----------+----------+-----------------------------+------------+
 
 2. REPORT DETAILS
 -----------------
-SYNTH-9#1 Warning
-Small multiplier  
-Detected multiplier at MULTIPLIER/OUTPUT_1_reg[4]_i_1 of size 8x3, it is implemented as LUTs due to its small size. To force the multiplier onto a DSP block, use the USE_DSP48 attribute.
-Related violations: <none>
-
-SYNTH-9#2 Warning
-Small multiplier  
-Detected multiplier at MULTIPLIER/OUTPUT_1_reg[7]_i_1 of size 8x3, it is implemented as LUTs due to its small size. To force the multiplier onto a DSP block, use the USE_DSP48 attribute.
-Related violations: <none>
-
 TIMING-17#1 Warning
 Non-clocked sequential cell  
 The clock pin BUF1_reg[0]/C is not reached by a timing clock
@@ -70,55 +59,25 @@ Related violations: <none>
 
 TIMING-17#6 Warning
 Non-clocked sequential cell  
-The clock pin BUF1_reg[5]/C is not reached by a timing clock
+The clock pin OUTPUT_1_reg[3]/C is not reached by a timing clock
 Related violations: <none>
 
 TIMING-17#7 Warning
 Non-clocked sequential cell  
-The clock pin BUF1_reg[6]/C is not reached by a timing clock
+The clock pin OUTPUT_1_reg[4]/C is not reached by a timing clock
 Related violations: <none>
 
 TIMING-17#8 Warning
 Non-clocked sequential cell  
-The clock pin BUF1_reg[7]/C is not reached by a timing clock
+The clock pin OUTPUT_1_reg[5]/C is not reached by a timing clock
 Related violations: <none>
 
 TIMING-17#9 Warning
 Non-clocked sequential cell  
-The clock pin OUTPUT_1_reg[0]/C is not reached by a timing clock
-Related violations: <none>
-
-TIMING-17#10 Warning
-Non-clocked sequential cell  
-The clock pin OUTPUT_1_reg[1]/C is not reached by a timing clock
-Related violations: <none>
-
-TIMING-17#11 Warning
-Non-clocked sequential cell  
-The clock pin OUTPUT_1_reg[2]/C is not reached by a timing clock
-Related violations: <none>
-
-TIMING-17#12 Warning
-Non-clocked sequential cell  
-The clock pin OUTPUT_1_reg[3]/C is not reached by a timing clock
-Related violations: <none>
-
-TIMING-17#13 Warning
-Non-clocked sequential cell  
-The clock pin OUTPUT_1_reg[4]/C is not reached by a timing clock
-Related violations: <none>
-
-TIMING-17#14 Warning
-Non-clocked sequential cell  
-The clock pin OUTPUT_1_reg[5]/C is not reached by a timing clock
-Related violations: <none>
-
-TIMING-17#15 Warning
-Non-clocked sequential cell  
 The clock pin OUTPUT_1_reg[6]/C is not reached by a timing clock
 Related violations: <none>
 
-TIMING-17#16 Warning
+TIMING-17#10 Warning
 Non-clocked sequential cell  
 The clock pin OUTPUT_1_reg[7]/C is not reached by a timing clock
 Related violations: <none>

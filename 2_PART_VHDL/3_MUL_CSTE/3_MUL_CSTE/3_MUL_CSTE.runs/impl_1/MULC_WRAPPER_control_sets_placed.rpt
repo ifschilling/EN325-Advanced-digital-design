@@ -1,7 +1,7 @@
 Copyright 1986-2018 Xilinx, Inc. All Rights Reserved.
 -----------------------------------------------------------------------------------------
 | Tool Version : Vivado v.2018.2 (lin64) Build 2258646 Thu Jun 14 20:02:38 MDT 2018
-| Date         : Tue Oct 13 09:24:07 2020
+| Date         : Tue Oct 20 08:25:36 2020
 | Host         : condor running 64-bit CentOS Linux release 7.3.1611 (Core)
 | Command      : report_control_sets -verbose -file MULC_WRAPPER_control_sets_placed.rpt
 | Design       : MULC_WRAPPER
@@ -24,7 +24,7 @@ Table of Contents
 |                          Status                          | Count |
 +----------------------------------------------------------+-------+
 | Number of unique control sets                            |     1 |
-| Unused register locations in slices containing registers |     0 |
+| Unused register locations in slices containing registers |     4 |
 +----------------------------------------------------------+-------+
 
 
@@ -44,7 +44,7 @@ Table of Contents
 +--------------+-----------------------+------------------------+-----------------+--------------+
 | Clock Enable | Synchronous Set/Reset | Asynchronous Set/Reset | Total Registers | Total Slices |
 +--------------+-----------------------+------------------------+-----------------+--------------+
-| No           | No                    | No                     |              32 |            5 |
+| No           | No                    | No                     |              20 |            9 |
 | No           | No                    | Yes                    |               0 |            0 |
 | No           | Yes                   | No                     |               0 |            0 |
 | Yes          | No                    | No                     |               0 |            0 |
@@ -59,7 +59,7 @@ Table of Contents
 +------------------+---------------+------------------+------------------+----------------+
 |   Clock Signal   | Enable Signal | Set/Reset Signal | Slice Load Count | Bel Load Count |
 +------------------+---------------+------------------+------------------+----------------+
-|  CLOCK_IBUF_BUFG |               |                  |                5 |             32 |
+|  CLOCK_IBUF_BUFG |               |                  |                9 |             20 |
 +------------------+---------------+------------------+------------------+----------------+
 
 

@@ -2,8 +2,8 @@
 # Vivado v2018.2 (64-bit)
 # SW Build 2258646 on Thu Jun 14 20:02:38 MDT 2018
 # IP Build 2256618 on Thu Jun 14 22:10:49 MDT 2018
-# Start of session at: Tue Oct 13 09:23:14 2020
-# Process ID: 18010
+# Start of session at: Tue Oct 20 08:24:41 2020
+# Process ID: 14720
 # Current directory: /net/e/ifischersch/EN325-Advanced-digital-design/2_PART_VHDL/3_MUL_CSTE/3_MUL_CSTE/3_MUL_CSTE.runs/impl_1
 # Command line: vivado -log MULC_WRAPPER.vdi -applog -product Vivado -messageDb vivado.pb -mode batch -source MULC_WRAPPER.tcl -notrace
 # Log file: /net/e/ifischersch/EN325-Advanced-digital-design/2_PART_VHDL/3_MUL_CSTE/3_MUL_CSTE/3_MUL_CSTE.runs/impl_1/MULC_WRAPPER.vdi
